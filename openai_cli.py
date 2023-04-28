@@ -48,7 +48,7 @@ def main():
         messages.append({"role": "user", "content": user_input})
         response_text = generate_chat_completion(first_cell_value, messages)
         print("\nAssistant:", end=" ")
-        print(Fore.WHITE + response_text)
+        print(Fore.CYAN + response_text)
         messages.append({"role": "assistant", "content": response_text})
 
 if __name__ == "__main__":
