@@ -1,5 +1,5 @@
 # GPTalkTerminal
-This is a command-line assistant implmentation using ChatGPT API
+This is a command-line assistant implementation using ChatGPT API
 
 1. Developed using `python 3.8.7`
 2. You will need to use your own API key from openai.
